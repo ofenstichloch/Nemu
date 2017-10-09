@@ -36,7 +36,7 @@ class console:
                 message = message.replace("\n", "")
                 self.setNode(message)
             else:
-                self.stdin.write(message.encode('UTF-8')
+                self.stdin.write(message.encode('UTF-8'))
                 self.stdin.flush()
 
     def reply_loop(self):
