@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEMU Config</title>
+</head>
+<body>
+    {%  if request.method == 'GET' %}
+    <form action="" method="post">
+            <div class="input text">
+                {{ form.graph.label }} </br>
+                {{ form.graph(rows='50', cols='100') }}
+            </div>
+
+            <div class="input submit">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    {% endif %}
+    {%  if request.method == 'POST' %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            setInterval(function() {
+                $.ajax({
+                    method: "GET", url: "status",
+                }).done(function( msg ) {
+                    $('p.status').html(msg);
+                });
+            }, 1000);
+        </script>
+        <h2>Status</h2>
+        <p class="status"></p>
+    {% endif %}
+</body>
+</html>

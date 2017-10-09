@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEMU Config</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.js"></script>
+    <style>
+		.row {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.col {
+			max-width: 50%;
+			flex-basis: 50%;
+			padding: 0 10px;
+			box-sizing: border-box;
+		}
+
+		.col--right {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.col--right > div {
+			flex: 1 0 0%;
+		}
+
+		.console {
+			height: 600px;
+			overflow-y: scroll;
+			background-color: rgba(0,0,0,0.75);
+			font-family: "Courier New", Courier, monospace;
+			color: white;
+		}
+
+		.canvas {
+			min-height: 300px;
+			width: 100%;
+			margin: 0 0 10px 0;
+			border: 1px solid black;
+		}
+
+		input[type="text"] {
+			display: block;
+			margin: 10px 10px 10px 0;
+			padding: 5px;
+			box-sizing: border-box;
+			width: 100%;
+			font-family: sans-serif;
+			font-size: 18px;
+			appearance: none;
+			box-shadow: none;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+		}
+
+		input[type="text"]:focus {
+			outline: 0;
+			border-color: #333;
+		}
+    </style>
+<body>
+    <script>
+        var ws = new WebSocket("ws://127.0.0.1:8081/");
+        var currentNode = "node1"
+        ws.onmessage = function (event) {
+            var blob = event.data;
+            writeText(blob)
+        };
+
+        function submit(element) {
+            if (event.keyCode === 13) {
+                ws.send(element.value+"\n");
+                writeText(element.value)
+                element.value = ""
+            }
+        }
+
+        function writeText(txt){
+            var messages = document.getElementsByClassName("console")[0];
+            var message = document.createElement('div');
+            txt = txt.replace(/(?:\r\n|\r|\n)/g, '<br />');
+            message.innerHTML = txt;
+            messages.appendChild(message);
+            var objDiv = document.getElementsByClassName("console")[0];
+            objDiv.scrollTop = objDiv.scrollHeight;
+        }
+
+        var netnodes = {{ nodes|tojson }}
+        var netedges = {{ edges|tojson }}
+        function updateInfo(){
+            elem = document.getElementById('info')
+            text = "Name: "+currentNode+"<br>"
+            text += "IP Adress: "+netnodes[currentNode]["ip"]+"<br>"
+            text += "Network: "+netnodes[currentNode]["network"]+"<br>"
+
+
+            elem.innerHTML = text
+        }
+
+        function changeNode(element) {
+            ws.send("___CHANGENODE___"+element.value+"\n");
+            currentNode = element.value;
+            updateInfo()
+        }
+    </script>
+   <div class="row">
+	    <div class="col">
+		    <div>
+		        <div class="console"></div>
+			    <input type="text" name="command" size="50" onkeydown="submit(this)" placeholder="enter command"/>
+			    <select name="node" onchange="changeNode(this)">
+                    {% for n in nodes %}
+                        {% if nodes[n]["type"] != "switch" %}
+                        <option name="{{ n }}">{{ n }}</option>
+                        {% endif %}
+                    {% endfor %}
+			    </select>
+		    </div>
+	    </div>
+   	    <div class="col col--right">
+		    <div class="canvas" id="graph"></div>
+		    <div class="canvas" id="info"></div>
+	    </div>
+    </div>
+        <script>
+            // create an array with nodes
+            var shape = { "router": "diamond", "client":"square", "switch":"box"}
+            var nodes = new vis.DataSet([
+                {% for n in nodes %}
+                    {id: "{{ n }}", label: "{{ n }}" , shape: shape['{{ nodes[n]["type"] }}']},
+                {%  endfor %}
+            ]);
+            // create an array with edges
+            var edges = new vis.DataSet([
+                {% for e in edges %}
+                    {from: "{{ e[0] }}", to: "{{ e[1] }}"},
+                {% endfor %}
+            ]);
+
+            // create a network
+            var container = document.getElementById('graph');
+            var data = {
+                nodes: nodes,
+                edges: edges
+            };
+            var options = {autoResize: false,
+                height: '100%',
+                width: '100%'};
+            var network = new vis.Network(container, data, options);
+        </script>
+    </div>
+</body>
+</html>
