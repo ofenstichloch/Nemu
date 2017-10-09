@@ -1,4 +1,4 @@
-#NEMU: Network emulation in Docker
+# NEMU: Network emulation in Docker
 
 The program takes a yml graph (as example in example.yml) and creates the corresponding network with Docker containers and bridges.
 
