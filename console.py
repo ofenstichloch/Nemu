@@ -14,7 +14,7 @@ class console:
 
     def setNode(self, new):
         self.node = new
-        p = Popen(['docker', 'exec', '-i', self.node, 'bash'], stdout=PIPE, stdin=PIPE, stderr=STDOUT, encoding='utf8')
+        p = Popen(['docker', 'exec', '-i', self.node, 'bash'], stdout=PIPE, stdin=PIPE, stderr=STDOUT)
         self.stdin = p.stdin
         self.stdout = p.stdout
         exec_thread = Thread(target=self.exec_loop)
@@ -36,7 +36,7 @@ class console:
                 message = message.replace("\n", "")
                 self.setNode(message)
             else:
-                self.stdin.write(message)
+                self.stdin.write(message.encode('UTF-8')
                 self.stdin.flush()
 
     def reply_loop(self):
