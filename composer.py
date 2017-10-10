@@ -26,9 +26,9 @@ def create(yaml, stream, graph):
     log.write("############## Finished creating nodes ##############" + "</br>")
     setupLinks(nodes, networks, edges)
     startNodes(nodes, networks, edges)
-    log.write(str(nodes) + "</br>")
-    log.write(str(edges) + "</br>")
-    log.write(str(networks) + "</br>")
+    log.write(str(nodes) + "</br></br>")
+    log.write(str(edges) + "</br></br>")
+    log.write(str(networks) + "</br></br>")
     log.write("############## Finished creating Docker components #############</br>")
     log.write("<a href='/main'>Continue</a>")
     graph.append(nodes)
@@ -93,6 +93,7 @@ def setupLinks(nodes, networks, edges):
 
                 nodes[edge[1]]["ip"] = ip
                 nodes[edge[1]]["network"] = edge[0]
+                edge.append(ip)
                 log.write("Connected node " + edge[1] + " to " + edge[0] + " with IP " + ip + "</br>")
                 if nodes[edge[1]]["type"] == "router" and networks[edge[1]]["router"] == "":
                     networks[edge[1]]["router"] = ip
@@ -104,6 +105,7 @@ def setupLinks(nodes, networks, edges):
                 client.networks.get(edge[1]).connect(edge[0], ip)
                 nodes[edge[0]]["ip"] = ip
                 nodes[edge[0]]["network"] = edge[1]
+                edge.append(ip)
                 log.write("Connected node "+edge[0]+" to "+edge[1]+" with IP "+ip + "</br>")
                 if nodes[edge[0]]["type"] == "router" and networks[edge[1]]["router"] == "":
                     networks[edge[1]]["router"] = ip
@@ -128,12 +130,12 @@ def startNodes(nodes, networks, edges):
         #Add netem configuration
         for edge in edges:
             #If there are additional netem options
-            if len(edge) == 3:
+            if len(edge) == 4:
                 #is it this node?
                 if edge[0] == name or edge[1] == name:
                     options = edge[2]
                     print(options)
-                    cmd = "/usr/bin/setupNemu "+node["ip"]+" \""
+                    cmd = "/usr/bin/setupNemu "+edge[3]+" \""
                     args = '#'.join(options)
                     args = args.replace("#", "\" \"")
                     cmd = cmd + args + "\""
