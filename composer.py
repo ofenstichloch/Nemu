@@ -18,11 +18,15 @@ def create(yaml, stream, graph):
         print(config)
         nodes = config["nodes"]
         edges = config["edges"]
+        if "image" in config:
+            image = config["image"]
+        else:
+            image = "ofenstichloch/nemu"
     except Exception as e:
         log.write("Error reading config file\n" + e.message + "</br>")
     networks = genSwitches(nodes)
     log.write("############## Finished creating network bridges (switches) ##############" + "</br>")
-    genNodes(nodes)
+    genNodes(nodes,image)
     log.write("############## Finished creating nodes ##############" + "</br>")
     setupLinks(nodes, networks, edges)
     startNodes(nodes, networks, edges)
@@ -66,17 +70,25 @@ def genSwitches(nodes):
 
 
 #Build Docker properties per node
-def genNodes(nodes):
+def genNodes(nodes, image):
     for name, node in nodes.items():
         if node["type"] == "switch":
             continue
         ###Setup loading mode (router/client)###
+        param = ""
+        if "entrypoint" in node:
+            param = node["entrypoint"]
         if node["type"] == "router":
-            entry = "/usr/bin/loop router "
+            entry = "/usr/bin/loop router " + param
         else:
-            entry = "/usr/bin/loop client"
-        client.containers.create("ofenstichloch/nemu",
-                                 name=name, hostname=name, entrypoint=entry, privileged=True)
+            entry = "/usr/bin/loop client " + param
+
+        volumes = {'/tmp/'+name: {'bind': '/var/log', 'mode': 'rw'}}
+        if "volumes" in node:
+            volumes = node["volumes"]
+
+        client.containers.create(image,
+                                 name=name, hostname=name, entrypoint=entry, privileged=True, volumes=volumes)
         net = client.networks.get("bridge")
         net.disconnect(name)
         log.write("Created node " + name + "</br>")

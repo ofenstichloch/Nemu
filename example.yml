@@ -55,7 +55,7 @@ edges:
 - [ router2,switch1]
 - [ router3,switch1]
 - [ router4,switch1, [delay=200ms 50ms,loss=10%]]
-- [ router1,switch2]
+- [ router1,switch2, [duplicate=50%, corrupt 10%, reorder 25% 50%]]
 - [ router2,switch3]
 - [ router3,switch4]
 - [ router4,switch5]
