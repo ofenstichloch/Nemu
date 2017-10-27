@@ -1,0 +1,20 @@
+#!/bin/bash
+/usr/bin/setupBird
+if [ -z "$2" ]
+then
+	if [ "$1" = "router" ]
+	then
+		bird -f
+	else
+		tail -f /dev/null
+	fi
+else
+	if [ "$1" = "router" ]
+        then                  
+                bird&
+		eval $2  
+        else             
+                eval $2
+        fi 
+fi
+
