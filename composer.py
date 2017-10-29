@@ -1,6 +1,7 @@
 #parse yaml file
 from yaml import load, dump
 import docker
+import time
 
 client = docker.from_env()
 
@@ -24,16 +25,22 @@ def create(yaml, stream, graph):
             image = "ofenstichloch/nemu"
     except Exception as e:
         log.write("Error reading config file\n" + e.message + "</br>")
+    startperf = time.perf_counter()
+    startcpu = time.process_time()
+    log.write("Starting at "+str(startperf)+" with process time of "+str(startcpu)+"</br>")
     networks = genSwitches(nodes)
     log.write("############## Finished creating network bridges (switches) ##############" + "</br>")
     genNodes(nodes,image)
     log.write("############## Finished creating nodes ##############" + "</br>")
     setupLinks(nodes, networks, edges)
     startNodes(nodes, networks, edges)
+    endperf = time.perf_counter()
+    endcpu = time.process_time()
     log.write(str(nodes) + "</br></br>")
     log.write(str(edges) + "</br></br>")
     log.write(str(networks) + "</br></br>")
     log.write("############## Finished creating Docker components #############</br>")
+    log.write("Time taken: "+str(endperf-startperf)+"   CPU time taken: "+str(endcpu-startcpu)+"</br>")
     log.write("<a href='/main'>Continue</a>")
     graph.append(nodes)
     graph.append(edges)
