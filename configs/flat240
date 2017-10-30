@@ -1,727 +1,727 @@
 nodes:
-	node1:
-		  ype: clien  
-	node2:
-		  ype: clien  
-	node3:
-		  ype: clien  
-	node4:
-		  ype: clien  
-	node5:
-		  ype: clien  
-	node6:
-		  ype: clien  
-	node7:
-		  ype: clien  
-	node8:
-		  ype: clien  
-	node9:
-		  ype: clien  
-	node10:
-		  ype: clien  
-	node11:
-		  ype: clien  
-	node12:
-		  ype: clien  
-	node13:
-		  ype: clien  
-	node14:
-		  ype: clien  
-	node15:
-		  ype: clien  
-	node16:
-		  ype: clien  
-	node17:
-		  ype: clien  
-	node18:
-		  ype: clien  
-	node19:
-		  ype: clien  
-	node20:
-		  ype: clien  
-	node21:
-		  ype: clien  
-	node22:
-		  ype: clien  
-	node23:
-		  ype: clien  
-	node24:
-		  ype: clien  
-	node25:
-		  ype: clien  
-	node26:
-		  ype: clien  
-	node27:
-		  ype: clien  
-	node28:
-		  ype: clien  
-	node29:
-		  ype: clien  
-	node30:
-		  ype: clien  
-	node31:
-		  ype: clien  
-	node32:
-		  ype: clien  
-	node33:
-		  ype: clien  
-	node34:
-		  ype: clien  
-	node35:
-		  ype: clien  
-	node36:
-		  ype: clien  
-	node37:
-		  ype: clien  
-	node38:
-		  ype: clien  
-	node39:
-		  ype: clien  
-	node40:
-		  ype: clien  
-	node41:
-		  ype: clien  
-	node42:
-		  ype: clien  
-	node43:
-		  ype: clien  
-	node44:
-		  ype: clien  
-	node45:
-		  ype: clien  
-	node46:
-		  ype: clien  
-	node47:
-		  ype: clien  
-	node48:
-		  ype: clien  
-	node49:
-		  ype: clien  
-	node50:
-		  ype: clien  
-	node51:
-		  ype: clien  
-	node52:
-		  ype: clien  
-	node53:
-		  ype: clien  
-	node54:
-		  ype: clien  
-	node55:
-		  ype: clien  
-	node56:
-		  ype: clien  
-	node57:
-		  ype: clien  
-	node58:
-		  ype: clien  
-	node59:
-		  ype: clien  
-	node60:
-		  ype: clien  
-	node61:
-		  ype: clien  
-	node62:
-		  ype: clien  
-	node63:
-		  ype: clien  
-	node64:
-		  ype: clien  
-	node65:
-		  ype: clien  
-	node66:
-		  ype: clien  
-	node67:
-		  ype: clien  
-	node68:
-		  ype: clien  
-	node69:
-		  ype: clien  
-	node70:
-		  ype: clien  
-	node71:
-		  ype: clien  
-	node72:
-		  ype: clien  
-	node73:
-		  ype: clien  
-	node74:
-		  ype: clien  
-	node75:
-		  ype: clien  
-	node76:
-		  ype: clien  
-	node77:
-		  ype: clien  
-	node78:
-		  ype: clien  
-	node79:
-		  ype: clien  
-	node80:
-		  ype: clien  
-	node81:
-		  ype: clien  
-	node82:
-		  ype: clien  
-	node83:
-		  ype: clien  
-	node84:
-		  ype: clien  
-	node85:
-		  ype: clien  
-	node86:
-		  ype: clien  
-	node87:
-		  ype: clien  
-	node88:
-		  ype: clien  
-	node89:
-		  ype: clien  
-	node90:
-		  ype: clien  
-	node91:
-		  ype: clien  
-	node92:
-		  ype: clien  
-	node93:
-		  ype: clien  
-	node94:
-		  ype: clien  
-	node95:
-		  ype: clien  
-	node96:
-		  ype: clien  
-	node97:
-		  ype: clien  
-	node98:
-		  ype: clien  
-	node99:
-		  ype: clien  
-	node100:
-		  ype: clien  
-	node101:
-		  ype: clien  
-	node102:
-		  ype: clien  
-	node103:
-		  ype: clien  
-	node104:
-		  ype: clien  
-	node105:
-		  ype: clien  
-	node106:
-		  ype: clien  
-	node107:
-		  ype: clien  
-	node108:
-		  ype: clien  
-	node109:
-		  ype: clien  
-	node110:
-		  ype: clien  
-	node111:
-		  ype: clien  
-	node112:
-		  ype: clien  
-	node113:
-		  ype: clien  
-	node114:
-		  ype: clien  
-	node115:
-		  ype: clien  
-	node116:
-		  ype: clien  
-	node117:
-		  ype: clien  
-	node118:
-		  ype: clien  
-	node119:
-		  ype: clien  
-	node120:
-		  ype: clien  
-	node121:
-		  ype: clien  
-	node122:
-		  ype: clien  
-	node123:
-		  ype: clien  
-	node124:
-		  ype: clien  
-	node125:
-		  ype: clien  
-	node126:
-		  ype: clien  
-	node127:
-		  ype: clien  
-	node128:
-		  ype: clien  
-	node129:
-		  ype: clien  
-	node130:
-		  ype: clien  
-	node131:
-		  ype: clien  
-	node132:
-		  ype: clien  
-	node133:
-		  ype: clien  
-	node134:
-		  ype: clien  
-	node135:
-		  ype: clien  
-	node136:
-		  ype: clien  
-	node137:
-		  ype: clien  
-	node138:
-		  ype: clien  
-	node139:
-		  ype: clien  
-	node140:
-		  ype: clien  
-	node141:
-		  ype: clien  
-	node142:
-		  ype: clien  
-	node143:
-		  ype: clien  
-	node144:
-		  ype: clien  
-	node145:
-		  ype: clien  
-	node146:
-		  ype: clien  
-	node147:
-		  ype: clien  
-	node148:
-		  ype: clien  
-	node149:
-		  ype: clien  
-	node150:
-		  ype: clien  
-	node151:
-		  ype: clien  
-	node152:
-		  ype: clien  
-	node153:
-		  ype: clien  
-	node154:
-		  ype: clien  
-	node155:
-		  ype: clien  
-	node156:
-		  ype: clien  
-	node157:
-		  ype: clien  
-	node158:
-		  ype: clien  
-	node159:
-		  ype: clien  
-	node160:
-		  ype: clien  
-	node161:
-		  ype: clien  
-	node162:
-		  ype: clien  
-	node163:
-		  ype: clien  
-	node164:
-		  ype: clien  
-	node165:
-		  ype: clien  
-	node166:
-		  ype: clien  
-	node167:
-		  ype: clien  
-	node168:
-		  ype: clien  
-	node169:
-		  ype: clien  
-	node170:
-		  ype: clien  
-	node171:
-		  ype: clien  
-	node172:
-		  ype: clien  
-	node173:
-		  ype: clien  
-	node174:
-		  ype: clien  
-	node175:
-		  ype: clien  
-	node176:
-		  ype: clien  
-	node177:
-		  ype: clien  
-	node178:
-		  ype: clien  
-	node179:
-		  ype: clien  
-	node180:
-		  ype: clien  
-	node181:
-		  ype: clien  
-	node182:
-		  ype: clien  
-	node183:
-		  ype: clien  
-	node184:
-		  ype: clien  
-	node185:
-		  ype: clien  
-	node186:
-		  ype: clien  
-	node187:
-		  ype: clien  
-	node188:
-		  ype: clien  
-	node189:
-		  ype: clien  
-	node190:
-		  ype: clien  
-	node191:
-		  ype: clien  
-	node192:
-		  ype: clien  
-	node193:
-		  ype: clien  
-	node194:
-		  ype: clien  
-	node195:
-		  ype: clien  
-	node196:
-		  ype: clien  
-	node197:
-		  ype: clien  
-	node198:
-		  ype: clien  
-	node199:
-		  ype: clien  
-	node200:
-		  ype: clien  
-	node201:
-		  ype: clien  
-	node202:
-		  ype: clien  
-	node203:
-		  ype: clien  
-	node204:
-		  ype: clien  
-	node205:
-		  ype: clien  
-	node206:
-		  ype: clien  
-	node207:
-		  ype: clien  
-	node208:
-		  ype: clien  
-	node209:
-		  ype: clien  
-	node210:
-		  ype: clien  
-	node211:
-		  ype: clien  
-	node212:
-		  ype: clien  
-	node213:
-		  ype: clien  
-	node214:
-		  ype: clien  
-	node215:
-		  ype: clien  
-	node216:
-		  ype: clien  
-	node217:
-		  ype: clien  
-	node218:
-		  ype: clien  
-	node219:
-		  ype: clien  
-	node220:
-		  ype: clien  
-	node221:
-		  ype: clien  
-	node222:
-		  ype: clien  
-	node223:
-		  ype: clien  
-	node224:
-		  ype: clien  
-	node225:
-		  ype: clien  
-	node226:
-		  ype: clien  
-	node227:
-		  ype: clien  
-	node228:
-		  ype: clien  
-	node229:
-		  ype: clien  
-	node230:
-		  ype: clien  
-	node231:
-		  ype: clien  
-	node232:
-		  ype: clien  
-	node233:
-		  ype: clien  
-	node234:
-		  ype: clien  
-	node235:
-		  ype: clien  
-	node236:
-		  ype: clien  
-	node237:
-		  ype: clien  
-	node238:
-		  ype: clien  
-	node239:
-		  ype: clien  
-	node240:
-		  ype: clien  
-	rou  er1:
-		  ype: rou  er
-	swi  ch1:
-		  ype: swi  ch
+  node1:
+    type: client
+  node2:
+    type: client
+  node3:
+    type: client
+  node4:
+    type: client
+  node5:
+    type: client
+  node6:
+    type: client
+  node7:
+    type: client
+  node8:
+    type: client
+  node9:
+    type: client
+  node10:
+    type: client
+  node11:
+    type: client
+  node12:
+    type: client
+  node13:
+    type: client
+  node14:
+    type: client
+  node15:
+    type: client
+  node16:
+    type: client
+  node17:
+    type: client
+  node18:
+    type: client
+  node19:
+    type: client
+  node20:
+    type: client
+  node21:
+    type: client
+  node22:
+    type: client
+  node23:
+    type: client
+  node24:
+    type: client
+  node25:
+    type: client
+  node26:
+    type: client
+  node27:
+    type: client
+  node28:
+    type: client
+  node29:
+    type: client
+  node30:
+    type: client
+  node31:
+    type: client
+  node32:
+    type: client
+  node33:
+    type: client
+  node34:
+    type: client
+  node35:
+    type: client
+  node36:
+    type: client
+  node37:
+    type: client
+  node38:
+    type: client
+  node39:
+    type: client
+  node40:
+    type: client
+  node41:
+    type: client
+  node42:
+    type: client
+  node43:
+    type: client
+  node44:
+    type: client
+  node45:
+    type: client
+  node46:
+    type: client
+  node47:
+    type: client
+  node48:
+    type: client
+  node49:
+    type: client
+  node50:
+    type: client
+  node51:
+    type: client
+  node52:
+    type: client
+  node53:
+    type: client
+  node54:
+    type: client
+  node55:
+    type: client
+  node56:
+    type: client
+  node57:
+    type: client
+  node58:
+    type: client
+  node59:
+    type: client
+  node60:
+    type: client
+  node61:
+    type: client
+  node62:
+    type: client
+  node63:
+    type: client
+  node64:
+    type: client
+  node65:
+    type: client
+  node66:
+    type: client
+  node67:
+    type: client
+  node68:
+    type: client
+  node69:
+    type: client
+  node70:
+    type: client
+  node71:
+    type: client
+  node72:
+    type: client
+  node73:
+    type: client
+  node74:
+    type: client
+  node75:
+    type: client
+  node76:
+    type: client
+  node77:
+    type: client
+  node78:
+    type: client
+  node79:
+    type: client
+  node80:
+    type: client
+  node81:
+    type: client
+  node82:
+    type: client
+  node83:
+    type: client
+  node84:
+    type: client
+  node85:
+    type: client
+  node86:
+    type: client
+  node87:
+    type: client
+  node88:
+    type: client
+  node89:
+    type: client
+  node90:
+    type: client
+  node91:
+    type: client
+  node92:
+    type: client
+  node93:
+    type: client
+  node94:
+    type: client
+  node95:
+    type: client
+  node96:
+    type: client
+  node97:
+    type: client
+  node98:
+    type: client
+  node99:
+    type: client
+  node100:
+    type: client
+  node101:
+    type: client
+  node102:
+    type: client
+  node103:
+    type: client
+  node104:
+    type: client
+  node105:
+    type: client
+  node106:
+    type: client
+  node107:
+    type: client
+  node108:
+    type: client
+  node109:
+    type: client
+  node110:
+    type: client
+  node111:
+    type: client
+  node112:
+    type: client
+  node113:
+    type: client
+  node114:
+    type: client
+  node115:
+    type: client
+  node116:
+    type: client
+  node117:
+    type: client
+  node118:
+    type: client
+  node119:
+    type: client
+  node120:
+    type: client
+  node121:
+    type: client
+  node122:
+    type: client
+  node123:
+    type: client
+  node124:
+    type: client
+  node125:
+    type: client
+  node126:
+    type: client
+  node127:
+    type: client
+  node128:
+    type: client
+  node129:
+    type: client
+  node130:
+    type: client
+  node131:
+    type: client
+  node132:
+    type: client
+  node133:
+    type: client
+  node134:
+    type: client
+  node135:
+    type: client
+  node136:
+    type: client
+  node137:
+    type: client
+  node138:
+    type: client
+  node139:
+    type: client
+  node140:
+    type: client
+  node141:
+    type: client
+  node142:
+    type: client
+  node143:
+    type: client
+  node144:
+    type: client
+  node145:
+    type: client
+  node146:
+    type: client
+  node147:
+    type: client
+  node148:
+    type: client
+  node149:
+    type: client
+  node150:
+    type: client
+  node151:
+    type: client
+  node152:
+    type: client
+  node153:
+    type: client
+  node154:
+    type: client
+  node155:
+    type: client
+  node156:
+    type: client
+  node157:
+    type: client
+  node158:
+    type: client
+  node159:
+    type: client
+  node160:
+    type: client
+  node161:
+    type: client
+  node162:
+    type: client
+  node163:
+    type: client
+  node164:
+    type: client
+  node165:
+    type: client
+  node166:
+    type: client
+  node167:
+    type: client
+  node168:
+    type: client
+  node169:
+    type: client
+  node170:
+    type: client
+  node171:
+    type: client
+  node172:
+    type: client
+  node173:
+    type: client
+  node174:
+    type: client
+  node175:
+    type: client
+  node176:
+    type: client
+  node177:
+    type: client
+  node178:
+    type: client
+  node179:
+    type: client
+  node180:
+    type: client
+  node181:
+    type: client
+  node182:
+    type: client
+  node183:
+    type: client
+  node184:
+    type: client
+  node185:
+    type: client
+  node186:
+    type: client
+  node187:
+    type: client
+  node188:
+    type: client
+  node189:
+    type: client
+  node190:
+    type: client
+  node191:
+    type: client
+  node192:
+    type: client
+  node193:
+    type: client
+  node194:
+    type: client
+  node195:
+    type: client
+  node196:
+    type: client
+  node197:
+    type: client
+  node198:
+    type: client
+  node199:
+    type: client
+  node200:
+    type: client
+  node201:
+    type: client
+  node202:
+    type: client
+  node203:
+    type: client
+  node204:
+    type: client
+  node205:
+    type: client
+  node206:
+    type: client
+  node207:
+    type: client
+  node208:
+    type: client
+  node209:
+    type: client
+  node210:
+    type: client
+  node211:
+    type: client
+  node212:
+    type: client
+  node213:
+    type: client
+  node214:
+    type: client
+  node215:
+    type: client
+  node216:
+    type: client
+  node217:
+    type: client
+  node218:
+    type: client
+  node219:
+    type: client
+  node220:
+    type: client
+  node221:
+    type: client
+  node222:
+    type: client
+  node223:
+    type: client
+  node224:
+    type: client
+  node225:
+    type: client
+  node226:
+    type: client
+  node227:
+    type: client
+  node228:
+    type: client
+  node229:
+    type: client
+  node230:
+    type: client
+  node231:
+    type: client
+  node232:
+    type: client
+  node233:
+    type: client
+  node234:
+    type: client
+  node235:
+    type: client
+  node236:
+    type: client
+  node237:
+    type: client
+  node238:
+    type: client
+  node239:
+    type: client
+  node240:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
 edges:
-	- [ node1,swi  ch1 ]
-	- [ node2,swi  ch1 ]
-	- [ node3,swi  ch1 ]
-	- [ node4,swi  ch1 ]
-	- [ node5,swi  ch1 ]
-	- [ node6,swi  ch1 ]
-	- [ node7,swi  ch1 ]
-	- [ node8,swi  ch1 ]
-	- [ node9,swi  ch1 ]
-	- [ node10,swi  ch1 ]
-	- [ node11,swi  ch1 ]
-	- [ node12,swi  ch1 ]
-	- [ node13,swi  ch1 ]
-	- [ node14,swi  ch1 ]
-	- [ node15,swi  ch1 ]
-	- [ node16,swi  ch1 ]
-	- [ node17,swi  ch1 ]
-	- [ node18,swi  ch1 ]
-	- [ node19,swi  ch1 ]
-	- [ node20,swi  ch1 ]
-	- [ node21,swi  ch1 ]
-	- [ node22,swi  ch1 ]
-	- [ node23,swi  ch1 ]
-	- [ node24,swi  ch1 ]
-	- [ node25,swi  ch1 ]
-	- [ node26,swi  ch1 ]
-	- [ node27,swi  ch1 ]
-	- [ node28,swi  ch1 ]
-	- [ node29,swi  ch1 ]
-	- [ node30,swi  ch1 ]
-	- [ node31,swi  ch1 ]
-	- [ node32,swi  ch1 ]
-	- [ node33,swi  ch1 ]
-	- [ node34,swi  ch1 ]
-	- [ node35,swi  ch1 ]
-	- [ node36,swi  ch1 ]
-	- [ node37,swi  ch1 ]
-	- [ node38,swi  ch1 ]
-	- [ node39,swi  ch1 ]
-	- [ node40,swi  ch1 ]
-	- [ node41,swi  ch1 ]
-	- [ node42,swi  ch1 ]
-	- [ node43,swi  ch1 ]
-	- [ node44,swi  ch1 ]
-	- [ node45,swi  ch1 ]
-	- [ node46,swi  ch1 ]
-	- [ node47,swi  ch1 ]
-	- [ node48,swi  ch1 ]
-	- [ node49,swi  ch1 ]
-	- [ node50,swi  ch1 ]
-	- [ node51,swi  ch1 ]
-	- [ node52,swi  ch1 ]
-	- [ node53,swi  ch1 ]
-	- [ node54,swi  ch1 ]
-	- [ node55,swi  ch1 ]
-	- [ node56,swi  ch1 ]
-	- [ node57,swi  ch1 ]
-	- [ node58,swi  ch1 ]
-	- [ node59,swi  ch1 ]
-	- [ node60,swi  ch1 ]
-	- [ node61,swi  ch1 ]
-	- [ node62,swi  ch1 ]
-	- [ node63,swi  ch1 ]
-	- [ node64,swi  ch1 ]
-	- [ node65,swi  ch1 ]
-	- [ node66,swi  ch1 ]
-	- [ node67,swi  ch1 ]
-	- [ node68,swi  ch1 ]
-	- [ node69,swi  ch1 ]
-	- [ node70,swi  ch1 ]
-	- [ node71,swi  ch1 ]
-	- [ node72,swi  ch1 ]
-	- [ node73,swi  ch1 ]
-	- [ node74,swi  ch1 ]
-	- [ node75,swi  ch1 ]
-	- [ node76,swi  ch1 ]
-	- [ node77,swi  ch1 ]
-	- [ node78,swi  ch1 ]
-	- [ node79,swi  ch1 ]
-	- [ node80,swi  ch1 ]
-	- [ node81,swi  ch1 ]
-	- [ node82,swi  ch1 ]
-	- [ node83,swi  ch1 ]
-	- [ node84,swi  ch1 ]
-	- [ node85,swi  ch1 ]
-	- [ node86,swi  ch1 ]
-	- [ node87,swi  ch1 ]
-	- [ node88,swi  ch1 ]
-	- [ node89,swi  ch1 ]
-	- [ node90,swi  ch1 ]
-	- [ node91,swi  ch1 ]
-	- [ node92,swi  ch1 ]
-	- [ node93,swi  ch1 ]
-	- [ node94,swi  ch1 ]
-	- [ node95,swi  ch1 ]
-	- [ node96,swi  ch1 ]
-	- [ node97,swi  ch1 ]
-	- [ node98,swi  ch1 ]
-	- [ node99,swi  ch1 ]
-	- [ node100,swi  ch1 ]
-	- [ node101,swi  ch1 ]
-	- [ node102,swi  ch1 ]
-	- [ node103,swi  ch1 ]
-	- [ node104,swi  ch1 ]
-	- [ node105,swi  ch1 ]
-	- [ node106,swi  ch1 ]
-	- [ node107,swi  ch1 ]
-	- [ node108,swi  ch1 ]
-	- [ node109,swi  ch1 ]
-	- [ node110,swi  ch1 ]
-	- [ node111,swi  ch1 ]
-	- [ node112,swi  ch1 ]
-	- [ node113,swi  ch1 ]
-	- [ node114,swi  ch1 ]
-	- [ node115,swi  ch1 ]
-	- [ node116,swi  ch1 ]
-	- [ node117,swi  ch1 ]
-	- [ node118,swi  ch1 ]
-	- [ node119,swi  ch1 ]
-	- [ node120,swi  ch1 ]
-	- [ node121,swi  ch1 ]
-	- [ node122,swi  ch1 ]
-	- [ node123,swi  ch1 ]
-	- [ node124,swi  ch1 ]
-	- [ node125,swi  ch1 ]
-	- [ node126,swi  ch1 ]
-	- [ node127,swi  ch1 ]
-	- [ node128,swi  ch1 ]
-	- [ node129,swi  ch1 ]
-	- [ node130,swi  ch1 ]
-	- [ node131,swi  ch1 ]
-	- [ node132,swi  ch1 ]
-	- [ node133,swi  ch1 ]
-	- [ node134,swi  ch1 ]
-	- [ node135,swi  ch1 ]
-	- [ node136,swi  ch1 ]
-	- [ node137,swi  ch1 ]
-	- [ node138,swi  ch1 ]
-	- [ node139,swi  ch1 ]
-	- [ node140,swi  ch1 ]
-	- [ node141,swi  ch1 ]
-	- [ node142,swi  ch1 ]
-	- [ node143,swi  ch1 ]
-	- [ node144,swi  ch1 ]
-	- [ node145,swi  ch1 ]
-	- [ node146,swi  ch1 ]
-	- [ node147,swi  ch1 ]
-	- [ node148,swi  ch1 ]
-	- [ node149,swi  ch1 ]
-	- [ node150,swi  ch1 ]
-	- [ node151,swi  ch1 ]
-	- [ node152,swi  ch1 ]
-	- [ node153,swi  ch1 ]
-	- [ node154,swi  ch1 ]
-	- [ node155,swi  ch1 ]
-	- [ node156,swi  ch1 ]
-	- [ node157,swi  ch1 ]
-	- [ node158,swi  ch1 ]
-	- [ node159,swi  ch1 ]
-	- [ node160,swi  ch1 ]
-	- [ node161,swi  ch1 ]
-	- [ node162,swi  ch1 ]
-	- [ node163,swi  ch1 ]
-	- [ node164,swi  ch1 ]
-	- [ node165,swi  ch1 ]
-	- [ node166,swi  ch1 ]
-	- [ node167,swi  ch1 ]
-	- [ node168,swi  ch1 ]
-	- [ node169,swi  ch1 ]
-	- [ node170,swi  ch1 ]
-	- [ node171,swi  ch1 ]
-	- [ node172,swi  ch1 ]
-	- [ node173,swi  ch1 ]
-	- [ node174,swi  ch1 ]
-	- [ node175,swi  ch1 ]
-	- [ node176,swi  ch1 ]
-	- [ node177,swi  ch1 ]
-	- [ node178,swi  ch1 ]
-	- [ node179,swi  ch1 ]
-	- [ node180,swi  ch1 ]
-	- [ node181,swi  ch1 ]
-	- [ node182,swi  ch1 ]
-	- [ node183,swi  ch1 ]
-	- [ node184,swi  ch1 ]
-	- [ node185,swi  ch1 ]
-	- [ node186,swi  ch1 ]
-	- [ node187,swi  ch1 ]
-	- [ node188,swi  ch1 ]
-	- [ node189,swi  ch1 ]
-	- [ node190,swi  ch1 ]
-	- [ node191,swi  ch1 ]
-	- [ node192,swi  ch1 ]
-	- [ node193,swi  ch1 ]
-	- [ node194,swi  ch1 ]
-	- [ node195,swi  ch1 ]
-	- [ node196,swi  ch1 ]
-	- [ node197,swi  ch1 ]
-	- [ node198,swi  ch1 ]
-	- [ node199,swi  ch1 ]
-	- [ node200,swi  ch1 ]
-	- [ node201,swi  ch1 ]
-	- [ node202,swi  ch1 ]
-	- [ node203,swi  ch1 ]
-	- [ node204,swi  ch1 ]
-	- [ node205,swi  ch1 ]
-	- [ node206,swi  ch1 ]
-	- [ node207,swi  ch1 ]
-	- [ node208,swi  ch1 ]
-	- [ node209,swi  ch1 ]
-	- [ node210,swi  ch1 ]
-	- [ node211,swi  ch1 ]
-	- [ node212,swi  ch1 ]
-	- [ node213,swi  ch1 ]
-	- [ node214,swi  ch1 ]
-	- [ node215,swi  ch1 ]
-	- [ node216,swi  ch1 ]
-	- [ node217,swi  ch1 ]
-	- [ node218,swi  ch1 ]
-	- [ node219,swi  ch1 ]
-	- [ node220,swi  ch1 ]
-	- [ node221,swi  ch1 ]
-	- [ node222,swi  ch1 ]
-	- [ node223,swi  ch1 ]
-	- [ node224,swi  ch1 ]
-	- [ node225,swi  ch1 ]
-	- [ node226,swi  ch1 ]
-	- [ node227,swi  ch1 ]
-	- [ node228,swi  ch1 ]
-	- [ node229,swi  ch1 ]
-	- [ node230,swi  ch1 ]
-	- [ node231,swi  ch1 ]
-	- [ node232,swi  ch1 ]
-	- [ node233,swi  ch1 ]
-	- [ node234,swi  ch1 ]
-	- [ node235,swi  ch1 ]
-	- [ node236,swi  ch1 ]
-	- [ node237,swi  ch1 ]
-	- [ node238,swi  ch1 ]
-	- [ node239,swi  ch1 ]
-	- [ node240,swi  ch1 ]
-	- [ rou  er1,swi  ch1 ]
+  - [ node1,switch1 ]
+  - [ node2,switch1 ]
+  - [ node3,switch1 ]
+  - [ node4,switch1 ]
+  - [ node5,switch1 ]
+  - [ node6,switch1 ]
+  - [ node7,switch1 ]
+  - [ node8,switch1 ]
+  - [ node9,switch1 ]
+  - [ node10,switch1 ]
+  - [ node11,switch1 ]
+  - [ node12,switch1 ]
+  - [ node13,switch1 ]
+  - [ node14,switch1 ]
+  - [ node15,switch1 ]
+  - [ node16,switch1 ]
+  - [ node17,switch1 ]
+  - [ node18,switch1 ]
+  - [ node19,switch1 ]
+  - [ node20,switch1 ]
+  - [ node21,switch1 ]
+  - [ node22,switch1 ]
+  - [ node23,switch1 ]
+  - [ node24,switch1 ]
+  - [ node25,switch1 ]
+  - [ node26,switch1 ]
+  - [ node27,switch1 ]
+  - [ node28,switch1 ]
+  - [ node29,switch1 ]
+  - [ node30,switch1 ]
+  - [ node31,switch1 ]
+  - [ node32,switch1 ]
+  - [ node33,switch1 ]
+  - [ node34,switch1 ]
+  - [ node35,switch1 ]
+  - [ node36,switch1 ]
+  - [ node37,switch1 ]
+  - [ node38,switch1 ]
+  - [ node39,switch1 ]
+  - [ node40,switch1 ]
+  - [ node41,switch1 ]
+  - [ node42,switch1 ]
+  - [ node43,switch1 ]
+  - [ node44,switch1 ]
+  - [ node45,switch1 ]
+  - [ node46,switch1 ]
+  - [ node47,switch1 ]
+  - [ node48,switch1 ]
+  - [ node49,switch1 ]
+  - [ node50,switch1 ]
+  - [ node51,switch1 ]
+  - [ node52,switch1 ]
+  - [ node53,switch1 ]
+  - [ node54,switch1 ]
+  - [ node55,switch1 ]
+  - [ node56,switch1 ]
+  - [ node57,switch1 ]
+  - [ node58,switch1 ]
+  - [ node59,switch1 ]
+  - [ node60,switch1 ]
+  - [ node61,switch1 ]
+  - [ node62,switch1 ]
+  - [ node63,switch1 ]
+  - [ node64,switch1 ]
+  - [ node65,switch1 ]
+  - [ node66,switch1 ]
+  - [ node67,switch1 ]
+  - [ node68,switch1 ]
+  - [ node69,switch1 ]
+  - [ node70,switch1 ]
+  - [ node71,switch1 ]
+  - [ node72,switch1 ]
+  - [ node73,switch1 ]
+  - [ node74,switch1 ]
+  - [ node75,switch1 ]
+  - [ node76,switch1 ]
+  - [ node77,switch1 ]
+  - [ node78,switch1 ]
+  - [ node79,switch1 ]
+  - [ node80,switch1 ]
+  - [ node81,switch1 ]
+  - [ node82,switch1 ]
+  - [ node83,switch1 ]
+  - [ node84,switch1 ]
+  - [ node85,switch1 ]
+  - [ node86,switch1 ]
+  - [ node87,switch1 ]
+  - [ node88,switch1 ]
+  - [ node89,switch1 ]
+  - [ node90,switch1 ]
+  - [ node91,switch1 ]
+  - [ node92,switch1 ]
+  - [ node93,switch1 ]
+  - [ node94,switch1 ]
+  - [ node95,switch1 ]
+  - [ node96,switch1 ]
+  - [ node97,switch1 ]
+  - [ node98,switch1 ]
+  - [ node99,switch1 ]
+  - [ node100,switch1 ]
+  - [ node101,switch1 ]
+  - [ node102,switch1 ]
+  - [ node103,switch1 ]
+  - [ node104,switch1 ]
+  - [ node105,switch1 ]
+  - [ node106,switch1 ]
+  - [ node107,switch1 ]
+  - [ node108,switch1 ]
+  - [ node109,switch1 ]
+  - [ node110,switch1 ]
+  - [ node111,switch1 ]
+  - [ node112,switch1 ]
+  - [ node113,switch1 ]
+  - [ node114,switch1 ]
+  - [ node115,switch1 ]
+  - [ node116,switch1 ]
+  - [ node117,switch1 ]
+  - [ node118,switch1 ]
+  - [ node119,switch1 ]
+  - [ node120,switch1 ]
+  - [ node121,switch1 ]
+  - [ node122,switch1 ]
+  - [ node123,switch1 ]
+  - [ node124,switch1 ]
+  - [ node125,switch1 ]
+  - [ node126,switch1 ]
+  - [ node127,switch1 ]
+  - [ node128,switch1 ]
+  - [ node129,switch1 ]
+  - [ node130,switch1 ]
+  - [ node131,switch1 ]
+  - [ node132,switch1 ]
+  - [ node133,switch1 ]
+  - [ node134,switch1 ]
+  - [ node135,switch1 ]
+  - [ node136,switch1 ]
+  - [ node137,switch1 ]
+  - [ node138,switch1 ]
+  - [ node139,switch1 ]
+  - [ node140,switch1 ]
+  - [ node141,switch1 ]
+  - [ node142,switch1 ]
+  - [ node143,switch1 ]
+  - [ node144,switch1 ]
+  - [ node145,switch1 ]
+  - [ node146,switch1 ]
+  - [ node147,switch1 ]
+  - [ node148,switch1 ]
+  - [ node149,switch1 ]
+  - [ node150,switch1 ]
+  - [ node151,switch1 ]
+  - [ node152,switch1 ]
+  - [ node153,switch1 ]
+  - [ node154,switch1 ]
+  - [ node155,switch1 ]
+  - [ node156,switch1 ]
+  - [ node157,switch1 ]
+  - [ node158,switch1 ]
+  - [ node159,switch1 ]
+  - [ node160,switch1 ]
+  - [ node161,switch1 ]
+  - [ node162,switch1 ]
+  - [ node163,switch1 ]
+  - [ node164,switch1 ]
+  - [ node165,switch1 ]
+  - [ node166,switch1 ]
+  - [ node167,switch1 ]
+  - [ node168,switch1 ]
+  - [ node169,switch1 ]
+  - [ node170,switch1 ]
+  - [ node171,switch1 ]
+  - [ node172,switch1 ]
+  - [ node173,switch1 ]
+  - [ node174,switch1 ]
+  - [ node175,switch1 ]
+  - [ node176,switch1 ]
+  - [ node177,switch1 ]
+  - [ node178,switch1 ]
+  - [ node179,switch1 ]
+  - [ node180,switch1 ]
+  - [ node181,switch1 ]
+  - [ node182,switch1 ]
+  - [ node183,switch1 ]
+  - [ node184,switch1 ]
+  - [ node185,switch1 ]
+  - [ node186,switch1 ]
+  - [ node187,switch1 ]
+  - [ node188,switch1 ]
+  - [ node189,switch1 ]
+  - [ node190,switch1 ]
+  - [ node191,switch1 ]
+  - [ node192,switch1 ]
+  - [ node193,switch1 ]
+  - [ node194,switch1 ]
+  - [ node195,switch1 ]
+  - [ node196,switch1 ]
+  - [ node197,switch1 ]
+  - [ node198,switch1 ]
+  - [ node199,switch1 ]
+  - [ node200,switch1 ]
+  - [ node201,switch1 ]
+  - [ node202,switch1 ]
+  - [ node203,switch1 ]
+  - [ node204,switch1 ]
+  - [ node205,switch1 ]
+  - [ node206,switch1 ]
+  - [ node207,switch1 ]
+  - [ node208,switch1 ]
+  - [ node209,switch1 ]
+  - [ node210,switch1 ]
+  - [ node211,switch1 ]
+  - [ node212,switch1 ]
+  - [ node213,switch1 ]
+  - [ node214,switch1 ]
+  - [ node215,switch1 ]
+  - [ node216,switch1 ]
+  - [ node217,switch1 ]
+  - [ node218,switch1 ]
+  - [ node219,switch1 ]
+  - [ node220,switch1 ]
+  - [ node221,switch1 ]
+  - [ node222,switch1 ]
+  - [ node223,switch1 ]
+  - [ node224,switch1 ]
+  - [ node225,switch1 ]
+  - [ node226,switch1 ]
+  - [ node227,switch1 ]
+  - [ node228,switch1 ]
+  - [ node229,switch1 ]
+  - [ node230,switch1 ]
+  - [ node231,switch1 ]
+  - [ node232,switch1 ]
+  - [ node233,switch1 ]
+  - [ node234,switch1 ]
+  - [ node235,switch1 ]
+  - [ node236,switch1 ]
+  - [ node237,switch1 ]
+  - [ node238,switch1 ]
+  - [ node239,switch1 ]
+  - [ node240,switch1 ]
+  - [ router1,switch1 ]
