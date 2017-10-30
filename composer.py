@@ -24,23 +24,25 @@ def create(yaml, stream, graph):
         else:
             image = "ofenstichloch/nemu"
     except Exception as e:
-        log.write("Error reading config file\n" + e.message + "</br>")
+        log.write("Error reading config file" + e.message + "</br>")
     startperf = time.perf_counter()
-    startcpu = time.process_time()
-    log.write("Starting at "+str(startperf)+" with process time of "+str(startcpu)+"</br>")
+    log.write("Starting at "+str(startperf)+"</br>")
     networks = genSwitches(nodes)
+    log.write("Perf: Switches "+str(time.perf_counter()-startperf) + "</br>")
     log.write("############## Finished creating network bridges (switches) ##############" + "</br>")
     genNodes(nodes,image)
+    log.write("Perf: Nodes "+str(time.perf_counter()-startperf) + "</br>")
     log.write("############## Finished creating nodes ##############" + "</br>")
     setupLinks(nodes, networks, edges)
+    log.write("Perf: Links " + str(time.perf_counter() - startperf) + "</br>")
     startNodes(nodes, networks, edges)
+    log.write("Perf: Start " + str(time.perf_counter() - startperf) + "</br>")
     endperf = time.perf_counter()
-    endcpu = time.process_time()
     log.write(str(nodes) + "</br></br>")
     log.write(str(edges) + "</br></br>")
     log.write(str(networks) + "</br></br>")
     log.write("############## Finished creating Docker components #############</br>")
-    log.write("Time taken: "+str(endperf-startperf)+"   CPU time taken: "+str(endcpu-startcpu)+"</br>")
+    log.write("Time taken: "+str(endperf-startperf)+"</br>")
     log.write("<a href='/main'>Continue</a>")
     graph.append(nodes)
     graph.append(edges)
@@ -136,6 +138,7 @@ def startNodes(nodes, networks, edges):
     for name, node in nodes.items():
         if node["type"] == "switch":
             continue
+        nodestart=time.perf_counter()
         container = client.containers.get(name)
         container.start()
         log.write("Started "+name + "</br>")
@@ -160,3 +163,4 @@ def startNodes(nodes, networks, edges):
                     cmd = cmd + args + "\""
                     container.exec_run(cmd, privileged=True)
                     log.write("Added netem command to node "+name+": "+cmd+"</br>")
+        log.write("Perf: Singlestart "+str(time.perf_counter()-nodestart) + "</br>")

@@ -1,0 +1,7 @@
+#!/bin/bash
+for a in `docker ps -aq`
+do 
+	docker kill $a
+	docker rm $a
+done 
+docker network prune -f
