@@ -1,0 +1,13 @@
+nodes:
+  switch0:
+    type: switch
+  node1:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+edges:
+- [switch1, node1]
+- [router1, switch1]
+- [router1, switch0]

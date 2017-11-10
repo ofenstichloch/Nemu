@@ -1,0 +1,31 @@
+nodes:
+  switch0:
+    type: switch
+  node1:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+  node2:
+    type: client
+  router2:
+    type: router
+  switch2:
+    type: switch
+  node3:
+    type: client
+  router3:
+    type: router
+  switch3:
+    type: switch
+edges:
+- [switch1, node1]
+- [router1, switch1]
+- [router1, switch0]
+- [switch2, node2]
+- [router2, switch2]
+- [router2, switch0]
+- [switch3, node3]
+- [router3, switch3]
+- [router3, switch0]

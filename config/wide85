@@ -1,0 +1,769 @@
+nodes:
+  switch0:
+    type: switch
+  node1:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+  node2:
+    type: client
+  router2:
+    type: router
+  switch2:
+    type: switch
+  node3:
+    type: client
+  router3:
+    type: router
+  switch3:
+    type: switch
+  node4:
+    type: client
+  router4:
+    type: router
+  switch4:
+    type: switch
+  node5:
+    type: client
+  router5:
+    type: router
+  switch5:
+    type: switch
+  node6:
+    type: client
+  router6:
+    type: router
+  switch6:
+    type: switch
+  node7:
+    type: client
+  router7:
+    type: router
+  switch7:
+    type: switch
+  node8:
+    type: client
+  router8:
+    type: router
+  switch8:
+    type: switch
+  node9:
+    type: client
+  router9:
+    type: router
+  switch9:
+    type: switch
+  node10:
+    type: client
+  router10:
+    type: router
+  switch10:
+    type: switch
+  node11:
+    type: client
+  router11:
+    type: router
+  switch11:
+    type: switch
+  node12:
+    type: client
+  router12:
+    type: router
+  switch12:
+    type: switch
+  node13:
+    type: client
+  router13:
+    type: router
+  switch13:
+    type: switch
+  node14:
+    type: client
+  router14:
+    type: router
+  switch14:
+    type: switch
+  node15:
+    type: client
+  router15:
+    type: router
+  switch15:
+    type: switch
+  node16:
+    type: client
+  router16:
+    type: router
+  switch16:
+    type: switch
+  node17:
+    type: client
+  router17:
+    type: router
+  switch17:
+    type: switch
+  node18:
+    type: client
+  router18:
+    type: router
+  switch18:
+    type: switch
+  node19:
+    type: client
+  router19:
+    type: router
+  switch19:
+    type: switch
+  node20:
+    type: client
+  router20:
+    type: router
+  switch20:
+    type: switch
+  node21:
+    type: client
+  router21:
+    type: router
+  switch21:
+    type: switch
+  node22:
+    type: client
+  router22:
+    type: router
+  switch22:
+    type: switch
+  node23:
+    type: client
+  router23:
+    type: router
+  switch23:
+    type: switch
+  node24:
+    type: client
+  router24:
+    type: router
+  switch24:
+    type: switch
+  node25:
+    type: client
+  router25:
+    type: router
+  switch25:
+    type: switch
+  node26:
+    type: client
+  router26:
+    type: router
+  switch26:
+    type: switch
+  node27:
+    type: client
+  router27:
+    type: router
+  switch27:
+    type: switch
+  node28:
+    type: client
+  router28:
+    type: router
+  switch28:
+    type: switch
+  node29:
+    type: client
+  router29:
+    type: router
+  switch29:
+    type: switch
+  node30:
+    type: client
+  router30:
+    type: router
+  switch30:
+    type: switch
+  node31:
+    type: client
+  router31:
+    type: router
+  switch31:
+    type: switch
+  node32:
+    type: client
+  router32:
+    type: router
+  switch32:
+    type: switch
+  node33:
+    type: client
+  router33:
+    type: router
+  switch33:
+    type: switch
+  node34:
+    type: client
+  router34:
+    type: router
+  switch34:
+    type: switch
+  node35:
+    type: client
+  router35:
+    type: router
+  switch35:
+    type: switch
+  node36:
+    type: client
+  router36:
+    type: router
+  switch36:
+    type: switch
+  node37:
+    type: client
+  router37:
+    type: router
+  switch37:
+    type: switch
+  node38:
+    type: client
+  router38:
+    type: router
+  switch38:
+    type: switch
+  node39:
+    type: client
+  router39:
+    type: router
+  switch39:
+    type: switch
+  node40:
+    type: client
+  router40:
+    type: router
+  switch40:
+    type: switch
+  node41:
+    type: client
+  router41:
+    type: router
+  switch41:
+    type: switch
+  node42:
+    type: client
+  router42:
+    type: router
+  switch42:
+    type: switch
+  node43:
+    type: client
+  router43:
+    type: router
+  switch43:
+    type: switch
+  node44:
+    type: client
+  router44:
+    type: router
+  switch44:
+    type: switch
+  node45:
+    type: client
+  router45:
+    type: router
+  switch45:
+    type: switch
+  node46:
+    type: client
+  router46:
+    type: router
+  switch46:
+    type: switch
+  node47:
+    type: client
+  router47:
+    type: router
+  switch47:
+    type: switch
+  node48:
+    type: client
+  router48:
+    type: router
+  switch48:
+    type: switch
+  node49:
+    type: client
+  router49:
+    type: router
+  switch49:
+    type: switch
+  node50:
+    type: client
+  router50:
+    type: router
+  switch50:
+    type: switch
+  node51:
+    type: client
+  router51:
+    type: router
+  switch51:
+    type: switch
+  node52:
+    type: client
+  router52:
+    type: router
+  switch52:
+    type: switch
+  node53:
+    type: client
+  router53:
+    type: router
+  switch53:
+    type: switch
+  node54:
+    type: client
+  router54:
+    type: router
+  switch54:
+    type: switch
+  node55:
+    type: client
+  router55:
+    type: router
+  switch55:
+    type: switch
+  node56:
+    type: client
+  router56:
+    type: router
+  switch56:
+    type: switch
+  node57:
+    type: client
+  router57:
+    type: router
+  switch57:
+    type: switch
+  node58:
+    type: client
+  router58:
+    type: router
+  switch58:
+    type: switch
+  node59:
+    type: client
+  router59:
+    type: router
+  switch59:
+    type: switch
+  node60:
+    type: client
+  router60:
+    type: router
+  switch60:
+    type: switch
+  node61:
+    type: client
+  router61:
+    type: router
+  switch61:
+    type: switch
+  node62:
+    type: client
+  router62:
+    type: router
+  switch62:
+    type: switch
+  node63:
+    type: client
+  router63:
+    type: router
+  switch63:
+    type: switch
+  node64:
+    type: client
+  router64:
+    type: router
+  switch64:
+    type: switch
+  node65:
+    type: client
+  router65:
+    type: router
+  switch65:
+    type: switch
+  node66:
+    type: client
+  router66:
+    type: router
+  switch66:
+    type: switch
+  node67:
+    type: client
+  router67:
+    type: router
+  switch67:
+    type: switch
+  node68:
+    type: client
+  router68:
+    type: router
+  switch68:
+    type: switch
+  node69:
+    type: client
+  router69:
+    type: router
+  switch69:
+    type: switch
+  node70:
+    type: client
+  router70:
+    type: router
+  switch70:
+    type: switch
+  node71:
+    type: client
+  router71:
+    type: router
+  switch71:
+    type: switch
+  node72:
+    type: client
+  router72:
+    type: router
+  switch72:
+    type: switch
+  node73:
+    type: client
+  router73:
+    type: router
+  switch73:
+    type: switch
+  node74:
+    type: client
+  router74:
+    type: router
+  switch74:
+    type: switch
+  node75:
+    type: client
+  router75:
+    type: router
+  switch75:
+    type: switch
+  node76:
+    type: client
+  router76:
+    type: router
+  switch76:
+    type: switch
+  node77:
+    type: client
+  router77:
+    type: router
+  switch77:
+    type: switch
+  node78:
+    type: client
+  router78:
+    type: router
+  switch78:
+    type: switch
+  node79:
+    type: client
+  router79:
+    type: router
+  switch79:
+    type: switch
+  node80:
+    type: client
+  router80:
+    type: router
+  switch80:
+    type: switch
+  node81:
+    type: client
+  router81:
+    type: router
+  switch81:
+    type: switch
+  node82:
+    type: client
+  router82:
+    type: router
+  switch82:
+    type: switch
+  node83:
+    type: client
+  router83:
+    type: router
+  switch83:
+    type: switch
+  node84:
+    type: client
+  router84:
+    type: router
+  switch84:
+    type: switch
+  node85:
+    type: client
+  router85:
+    type: router
+  switch85:
+    type: switch
+edges:
+- [switch1, node1]
+- [router1, switch1]
+- [router1, switch0]
+- [switch2, node2]
+- [router2, switch2]
+- [router2, switch0]
+- [switch3, node3]
+- [router3, switch3]
+- [router3, switch0]
+- [switch4, node4]
+- [router4, switch4]
+- [router4, switch0]
+- [switch5, node5]
+- [router5, switch5]
+- [router5, switch0]
+- [switch6, node6]
+- [router6, switch6]
+- [router6, switch0]
+- [switch7, node7]
+- [router7, switch7]
+- [router7, switch0]
+- [switch8, node8]
+- [router8, switch8]
+- [router8, switch0]
+- [switch9, node9]
+- [router9, switch9]
+- [router9, switch0]
+- [switch10, node10]
+- [router10, switch10]
+- [router10, switch0]
+- [switch11, node11]
+- [router11, switch11]
+- [router11, switch0]
+- [switch12, node12]
+- [router12, switch12]
+- [router12, switch0]
+- [switch13, node13]
+- [router13, switch13]
+- [router13, switch0]
+- [switch14, node14]
+- [router14, switch14]
+- [router14, switch0]
+- [switch15, node15]
+- [router15, switch15]
+- [router15, switch0]
+- [switch16, node16]
+- [router16, switch16]
+- [router16, switch0]
+- [switch17, node17]
+- [router17, switch17]
+- [router17, switch0]
+- [switch18, node18]
+- [router18, switch18]
+- [router18, switch0]
+- [switch19, node19]
+- [router19, switch19]
+- [router19, switch0]
+- [switch20, node20]
+- [router20, switch20]
+- [router20, switch0]
+- [switch21, node21]
+- [router21, switch21]
+- [router21, switch0]
+- [switch22, node22]
+- [router22, switch22]
+- [router22, switch0]
+- [switch23, node23]
+- [router23, switch23]
+- [router23, switch0]
+- [switch24, node24]
+- [router24, switch24]
+- [router24, switch0]
+- [switch25, node25]
+- [router25, switch25]
+- [router25, switch0]
+- [switch26, node26]
+- [router26, switch26]
+- [router26, switch0]
+- [switch27, node27]
+- [router27, switch27]
+- [router27, switch0]
+- [switch28, node28]
+- [router28, switch28]
+- [router28, switch0]
+- [switch29, node29]
+- [router29, switch29]
+- [router29, switch0]
+- [switch30, node30]
+- [router30, switch30]
+- [router30, switch0]
+- [switch31, node31]
+- [router31, switch31]
+- [router31, switch0]
+- [switch32, node32]
+- [router32, switch32]
+- [router32, switch0]
+- [switch33, node33]
+- [router33, switch33]
+- [router33, switch0]
+- [switch34, node34]
+- [router34, switch34]
+- [router34, switch0]
+- [switch35, node35]
+- [router35, switch35]
+- [router35, switch0]
+- [switch36, node36]
+- [router36, switch36]
+- [router36, switch0]
+- [switch37, node37]
+- [router37, switch37]
+- [router37, switch0]
+- [switch38, node38]
+- [router38, switch38]
+- [router38, switch0]
+- [switch39, node39]
+- [router39, switch39]
+- [router39, switch0]
+- [switch40, node40]
+- [router40, switch40]
+- [router40, switch0]
+- [switch41, node41]
+- [router41, switch41]
+- [router41, switch0]
+- [switch42, node42]
+- [router42, switch42]
+- [router42, switch0]
+- [switch43, node43]
+- [router43, switch43]
+- [router43, switch0]
+- [switch44, node44]
+- [router44, switch44]
+- [router44, switch0]
+- [switch45, node45]
+- [router45, switch45]
+- [router45, switch0]
+- [switch46, node46]
+- [router46, switch46]
+- [router46, switch0]
+- [switch47, node47]
+- [router47, switch47]
+- [router47, switch0]
+- [switch48, node48]
+- [router48, switch48]
+- [router48, switch0]
+- [switch49, node49]
+- [router49, switch49]
+- [router49, switch0]
+- [switch50, node50]
+- [router50, switch50]
+- [router50, switch0]
+- [switch51, node51]
+- [router51, switch51]
+- [router51, switch0]
+- [switch52, node52]
+- [router52, switch52]
+- [router52, switch0]
+- [switch53, node53]
+- [router53, switch53]
+- [router53, switch0]
+- [switch54, node54]
+- [router54, switch54]
+- [router54, switch0]
+- [switch55, node55]
+- [router55, switch55]
+- [router55, switch0]
+- [switch56, node56]
+- [router56, switch56]
+- [router56, switch0]
+- [switch57, node57]
+- [router57, switch57]
+- [router57, switch0]
+- [switch58, node58]
+- [router58, switch58]
+- [router58, switch0]
+- [switch59, node59]
+- [router59, switch59]
+- [router59, switch0]
+- [switch60, node60]
+- [router60, switch60]
+- [router60, switch0]
+- [switch61, node61]
+- [router61, switch61]
+- [router61, switch0]
+- [switch62, node62]
+- [router62, switch62]
+- [router62, switch0]
+- [switch63, node63]
+- [router63, switch63]
+- [router63, switch0]
+- [switch64, node64]
+- [router64, switch64]
+- [router64, switch0]
+- [switch65, node65]
+- [router65, switch65]
+- [router65, switch0]
+- [switch66, node66]
+- [router66, switch66]
+- [router66, switch0]
+- [switch67, node67]
+- [router67, switch67]
+- [router67, switch0]
+- [switch68, node68]
+- [router68, switch68]
+- [router68, switch0]
+- [switch69, node69]
+- [router69, switch69]
+- [router69, switch0]
+- [switch70, node70]
+- [router70, switch70]
+- [router70, switch0]
+- [switch71, node71]
+- [router71, switch71]
+- [router71, switch0]
+- [switch72, node72]
+- [router72, switch72]
+- [router72, switch0]
+- [switch73, node73]
+- [router73, switch73]
+- [router73, switch0]
+- [switch74, node74]
+- [router74, switch74]
+- [router74, switch0]
+- [switch75, node75]
+- [router75, switch75]
+- [router75, switch0]
+- [switch76, node76]
+- [router76, switch76]
+- [router76, switch0]
+- [switch77, node77]
+- [router77, switch77]
+- [router77, switch0]
+- [switch78, node78]
+- [router78, switch78]
+- [router78, switch0]
+- [switch79, node79]
+- [router79, switch79]
+- [router79, switch0]
+- [switch80, node80]
+- [router80, switch80]
+- [router80, switch0]
+- [switch81, node81]
+- [router81, switch81]
+- [router81, switch0]
+- [switch82, node82]
+- [router82, switch82]
+- [router82, switch0]
+- [switch83, node83]
+- [router83, switch83]
+- [router83, switch0]
+- [switch84, node84]
+- [router84, switch84]
+- [router84, switch0]
+- [switch85, node85]
+- [router85, switch85]
+- [router85, switch0]

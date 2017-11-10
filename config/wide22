@@ -1,0 +1,202 @@
+nodes:
+  switch0:
+    type: switch
+  node1:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+  node2:
+    type: client
+  router2:
+    type: router
+  switch2:
+    type: switch
+  node3:
+    type: client
+  router3:
+    type: router
+  switch3:
+    type: switch
+  node4:
+    type: client
+  router4:
+    type: router
+  switch4:
+    type: switch
+  node5:
+    type: client
+  router5:
+    type: router
+  switch5:
+    type: switch
+  node6:
+    type: client
+  router6:
+    type: router
+  switch6:
+    type: switch
+  node7:
+    type: client
+  router7:
+    type: router
+  switch7:
+    type: switch
+  node8:
+    type: client
+  router8:
+    type: router
+  switch8:
+    type: switch
+  node9:
+    type: client
+  router9:
+    type: router
+  switch9:
+    type: switch
+  node10:
+    type: client
+  router10:
+    type: router
+  switch10:
+    type: switch
+  node11:
+    type: client
+  router11:
+    type: router
+  switch11:
+    type: switch
+  node12:
+    type: client
+  router12:
+    type: router
+  switch12:
+    type: switch
+  node13:
+    type: client
+  router13:
+    type: router
+  switch13:
+    type: switch
+  node14:
+    type: client
+  router14:
+    type: router
+  switch14:
+    type: switch
+  node15:
+    type: client
+  router15:
+    type: router
+  switch15:
+    type: switch
+  node16:
+    type: client
+  router16:
+    type: router
+  switch16:
+    type: switch
+  node17:
+    type: client
+  router17:
+    type: router
+  switch17:
+    type: switch
+  node18:
+    type: client
+  router18:
+    type: router
+  switch18:
+    type: switch
+  node19:
+    type: client
+  router19:
+    type: router
+  switch19:
+    type: switch
+  node20:
+    type: client
+  router20:
+    type: router
+  switch20:
+    type: switch
+  node21:
+    type: client
+  router21:
+    type: router
+  switch21:
+    type: switch
+  node22:
+    type: client
+  router22:
+    type: router
+  switch22:
+    type: switch
+edges:
+- [switch1, node1]
+- [router1, switch1]
+- [router1, switch0]
+- [switch2, node2]
+- [router2, switch2]
+- [router2, switch0]
+- [switch3, node3]
+- [router3, switch3]
+- [router3, switch0]
+- [switch4, node4]
+- [router4, switch4]
+- [router4, switch0]
+- [switch5, node5]
+- [router5, switch5]
+- [router5, switch0]
+- [switch6, node6]
+- [router6, switch6]
+- [router6, switch0]
+- [switch7, node7]
+- [router7, switch7]
+- [router7, switch0]
+- [switch8, node8]
+- [router8, switch8]
+- [router8, switch0]
+- [switch9, node9]
+- [router9, switch9]
+- [router9, switch0]
+- [switch10, node10]
+- [router10, switch10]
+- [router10, switch0]
+- [switch11, node11]
+- [router11, switch11]
+- [router11, switch0]
+- [switch12, node12]
+- [router12, switch12]
+- [router12, switch0]
+- [switch13, node13]
+- [router13, switch13]
+- [router13, switch0]
+- [switch14, node14]
+- [router14, switch14]
+- [router14, switch0]
+- [switch15, node15]
+- [router15, switch15]
+- [router15, switch0]
+- [switch16, node16]
+- [router16, switch16]
+- [router16, switch0]
+- [switch17, node17]
+- [router17, switch17]
+- [router17, switch0]
+- [switch18, node18]
+- [router18, switch18]
+- [router18, switch0]
+- [switch19, node19]
+- [router19, switch19]
+- [router19, switch0]
+- [switch20, node20]
+- [router20, switch20]
+- [router20, switch0]
+- [switch21, node21]
+- [router21, switch21]
+- [router21, switch0]
+- [switch22, node22]
+- [router22, switch22]
+- [router22, switch0]
