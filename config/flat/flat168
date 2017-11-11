@@ -1,0 +1,511 @@
+nodes:
+  node1:
+    type: client
+  node2:
+    type: client
+  node3:
+    type: client
+  node4:
+    type: client
+  node5:
+    type: client
+  node6:
+    type: client
+  node7:
+    type: client
+  node8:
+    type: client
+  node9:
+    type: client
+  node10:
+    type: client
+  node11:
+    type: client
+  node12:
+    type: client
+  node13:
+    type: client
+  node14:
+    type: client
+  node15:
+    type: client
+  node16:
+    type: client
+  node17:
+    type: client
+  node18:
+    type: client
+  node19:
+    type: client
+  node20:
+    type: client
+  node21:
+    type: client
+  node22:
+    type: client
+  node23:
+    type: client
+  node24:
+    type: client
+  node25:
+    type: client
+  node26:
+    type: client
+  node27:
+    type: client
+  node28:
+    type: client
+  node29:
+    type: client
+  node30:
+    type: client
+  node31:
+    type: client
+  node32:
+    type: client
+  node33:
+    type: client
+  node34:
+    type: client
+  node35:
+    type: client
+  node36:
+    type: client
+  node37:
+    type: client
+  node38:
+    type: client
+  node39:
+    type: client
+  node40:
+    type: client
+  node41:
+    type: client
+  node42:
+    type: client
+  node43:
+    type: client
+  node44:
+    type: client
+  node45:
+    type: client
+  node46:
+    type: client
+  node47:
+    type: client
+  node48:
+    type: client
+  node49:
+    type: client
+  node50:
+    type: client
+  node51:
+    type: client
+  node52:
+    type: client
+  node53:
+    type: client
+  node54:
+    type: client
+  node55:
+    type: client
+  node56:
+    type: client
+  node57:
+    type: client
+  node58:
+    type: client
+  node59:
+    type: client
+  node60:
+    type: client
+  node61:
+    type: client
+  node62:
+    type: client
+  node63:
+    type: client
+  node64:
+    type: client
+  node65:
+    type: client
+  node66:
+    type: client
+  node67:
+    type: client
+  node68:
+    type: client
+  node69:
+    type: client
+  node70:
+    type: client
+  node71:
+    type: client
+  node72:
+    type: client
+  node73:
+    type: client
+  node74:
+    type: client
+  node75:
+    type: client
+  node76:
+    type: client
+  node77:
+    type: client
+  node78:
+    type: client
+  node79:
+    type: client
+  node80:
+    type: client
+  node81:
+    type: client
+  node82:
+    type: client
+  node83:
+    type: client
+  node84:
+    type: client
+  node85:
+    type: client
+  node86:
+    type: client
+  node87:
+    type: client
+  node88:
+    type: client
+  node89:
+    type: client
+  node90:
+    type: client
+  node91:
+    type: client
+  node92:
+    type: client
+  node93:
+    type: client
+  node94:
+    type: client
+  node95:
+    type: client
+  node96:
+    type: client
+  node97:
+    type: client
+  node98:
+    type: client
+  node99:
+    type: client
+  node100:
+    type: client
+  node101:
+    type: client
+  node102:
+    type: client
+  node103:
+    type: client
+  node104:
+    type: client
+  node105:
+    type: client
+  node106:
+    type: client
+  node107:
+    type: client
+  node108:
+    type: client
+  node109:
+    type: client
+  node110:
+    type: client
+  node111:
+    type: client
+  node112:
+    type: client
+  node113:
+    type: client
+  node114:
+    type: client
+  node115:
+    type: client
+  node116:
+    type: client
+  node117:
+    type: client
+  node118:
+    type: client
+  node119:
+    type: client
+  node120:
+    type: client
+  node121:
+    type: client
+  node122:
+    type: client
+  node123:
+    type: client
+  node124:
+    type: client
+  node125:
+    type: client
+  node126:
+    type: client
+  node127:
+    type: client
+  node128:
+    type: client
+  node129:
+    type: client
+  node130:
+    type: client
+  node131:
+    type: client
+  node132:
+    type: client
+  node133:
+    type: client
+  node134:
+    type: client
+  node135:
+    type: client
+  node136:
+    type: client
+  node137:
+    type: client
+  node138:
+    type: client
+  node139:
+    type: client
+  node140:
+    type: client
+  node141:
+    type: client
+  node142:
+    type: client
+  node143:
+    type: client
+  node144:
+    type: client
+  node145:
+    type: client
+  node146:
+    type: client
+  node147:
+    type: client
+  node148:
+    type: client
+  node149:
+    type: client
+  node150:
+    type: client
+  node151:
+    type: client
+  node152:
+    type: client
+  node153:
+    type: client
+  node154:
+    type: client
+  node155:
+    type: client
+  node156:
+    type: client
+  node157:
+    type: client
+  node158:
+    type: client
+  node159:
+    type: client
+  node160:
+    type: client
+  node161:
+    type: client
+  node162:
+    type: client
+  node163:
+    type: client
+  node164:
+    type: client
+  node165:
+    type: client
+  node166:
+    type: client
+  node167:
+    type: client
+  node168:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+edges:
+- [switch1, node1]
+- [switch1, node2]
+- [switch1, node3]
+- [switch1, node4]
+- [switch1, node5]
+- [switch1, node6]
+- [switch1, node7]
+- [switch1, node8]
+- [switch1, node9]
+- [switch1, node10]
+- [switch1, node11]
+- [switch1, node12]
+- [switch1, node13]
+- [switch1, node14]
+- [switch1, node15]
+- [switch1, node16]
+- [switch1, node17]
+- [switch1, node18]
+- [switch1, node19]
+- [switch1, node20]
+- [switch1, node21]
+- [switch1, node22]
+- [switch1, node23]
+- [switch1, node24]
+- [switch1, node25]
+- [switch1, node26]
+- [switch1, node27]
+- [switch1, node28]
+- [switch1, node29]
+- [switch1, node30]
+- [switch1, node31]
+- [switch1, node32]
+- [switch1, node33]
+- [switch1, node34]
+- [switch1, node35]
+- [switch1, node36]
+- [switch1, node37]
+- [switch1, node38]
+- [switch1, node39]
+- [switch1, node40]
+- [switch1, node41]
+- [switch1, node42]
+- [switch1, node43]
+- [switch1, node44]
+- [switch1, node45]
+- [switch1, node46]
+- [switch1, node47]
+- [switch1, node48]
+- [switch1, node49]
+- [switch1, node50]
+- [switch1, node51]
+- [switch1, node52]
+- [switch1, node53]
+- [switch1, node54]
+- [switch1, node55]
+- [switch1, node56]
+- [switch1, node57]
+- [switch1, node58]
+- [switch1, node59]
+- [switch1, node60]
+- [switch1, node61]
+- [switch1, node62]
+- [switch1, node63]
+- [switch1, node64]
+- [switch1, node65]
+- [switch1, node66]
+- [switch1, node67]
+- [switch1, node68]
+- [switch1, node69]
+- [switch1, node70]
+- [switch1, node71]
+- [switch1, node72]
+- [switch1, node73]
+- [switch1, node74]
+- [switch1, node75]
+- [switch1, node76]
+- [switch1, node77]
+- [switch1, node78]
+- [switch1, node79]
+- [switch1, node80]
+- [switch1, node81]
+- [switch1, node82]
+- [switch1, node83]
+- [switch1, node84]
+- [switch1, node85]
+- [switch1, node86]
+- [switch1, node87]
+- [switch1, node88]
+- [switch1, node89]
+- [switch1, node90]
+- [switch1, node91]
+- [switch1, node92]
+- [switch1, node93]
+- [switch1, node94]
+- [switch1, node95]
+- [switch1, node96]
+- [switch1, node97]
+- [switch1, node98]
+- [switch1, node99]
+- [switch1, node100]
+- [switch1, node101]
+- [switch1, node102]
+- [switch1, node103]
+- [switch1, node104]
+- [switch1, node105]
+- [switch1, node106]
+- [switch1, node107]
+- [switch1, node108]
+- [switch1, node109]
+- [switch1, node110]
+- [switch1, node111]
+- [switch1, node112]
+- [switch1, node113]
+- [switch1, node114]
+- [switch1, node115]
+- [switch1, node116]
+- [switch1, node117]
+- [switch1, node118]
+- [switch1, node119]
+- [switch1, node120]
+- [switch1, node121]
+- [switch1, node122]
+- [switch1, node123]
+- [switch1, node124]
+- [switch1, node125]
+- [switch1, node126]
+- [switch1, node127]
+- [switch1, node128]
+- [switch1, node129]
+- [switch1, node130]
+- [switch1, node131]
+- [switch1, node132]
+- [switch1, node133]
+- [switch1, node134]
+- [switch1, node135]
+- [switch1, node136]
+- [switch1, node137]
+- [switch1, node138]
+- [switch1, node139]
+- [switch1, node140]
+- [switch1, node141]
+- [switch1, node142]
+- [switch1, node143]
+- [switch1, node144]
+- [switch1, node145]
+- [switch1, node146]
+- [switch1, node147]
+- [switch1, node148]
+- [switch1, node149]
+- [switch1, node150]
+- [switch1, node151]
+- [switch1, node152]
+- [switch1, node153]
+- [switch1, node154]
+- [switch1, node155]
+- [switch1, node156]
+- [switch1, node157]
+- [switch1, node158]
+- [switch1, node159]
+- [switch1, node160]
+- [switch1, node161]
+- [switch1, node162]
+- [switch1, node163]
+- [switch1, node164]
+- [switch1, node165]
+- [switch1, node166]
+- [switch1, node167]
+- [switch1, node168]
+- [router1, switch1]

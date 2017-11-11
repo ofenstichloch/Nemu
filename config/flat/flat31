@@ -1,0 +1,100 @@
+nodes:
+  node1:
+    type: client
+  node2:
+    type: client
+  node3:
+    type: client
+  node4:
+    type: client
+  node5:
+    type: client
+  node6:
+    type: client
+  node7:
+    type: client
+  node8:
+    type: client
+  node9:
+    type: client
+  node10:
+    type: client
+  node11:
+    type: client
+  node12:
+    type: client
+  node13:
+    type: client
+  node14:
+    type: client
+  node15:
+    type: client
+  node16:
+    type: client
+  node17:
+    type: client
+  node18:
+    type: client
+  node19:
+    type: client
+  node20:
+    type: client
+  node21:
+    type: client
+  node22:
+    type: client
+  node23:
+    type: client
+  node24:
+    type: client
+  node25:
+    type: client
+  node26:
+    type: client
+  node27:
+    type: client
+  node28:
+    type: client
+  node29:
+    type: client
+  node30:
+    type: client
+  node31:
+    type: client
+  router1:
+    type: router
+  switch1:
+    type: switch
+edges:
+- [switch1, node1]
+- [switch1, node2]
+- [switch1, node3]
+- [switch1, node4]
+- [switch1, node5]
+- [switch1, node6]
+- [switch1, node7]
+- [switch1, node8]
+- [switch1, node9]
+- [switch1, node10]
+- [switch1, node11]
+- [switch1, node12]
+- [switch1, node13]
+- [switch1, node14]
+- [switch1, node15]
+- [switch1, node16]
+- [switch1, node17]
+- [switch1, node18]
+- [switch1, node19]
+- [switch1, node20]
+- [switch1, node21]
+- [switch1, node22]
+- [switch1, node23]
+- [switch1, node24]
+- [switch1, node25]
+- [switch1, node26]
+- [switch1, node27]
+- [switch1, node28]
+- [switch1, node29]
+- [switch1, node30]
+- [switch1, node31]
+- [router1, switch1]
