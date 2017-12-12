@@ -1,0 +1,19 @@
+#!/bin/bash
+INTERFACES=`ip link| grep " eth" | cut -d "@" -f 1 | cut -d " " -f 2`
+for i in $INTERFACES
+do
+        IP=`ifconfig $i | grep inet6 | grep fd | cut -f 2-5 -d ":"`
+        echo "interface $i {
+                AdvSendAdvert on;
+                MinRtrAdvInterval 3;
+                MaxRtrAdvInterval 10;
+                prefix $IP:/64 {
+                        AdvOnLink on;
+                        AdvAutonomous on;
+                        AdvRouterAddr on;
+                };
+        };"
+done > /etc/radvd.conf
+mkdir /run/radvd
+radvd
+

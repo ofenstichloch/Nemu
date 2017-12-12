@@ -8,8 +8,10 @@ RUN apk --update add iptables
 RUN apk --update add iproute2
 RUN apk --update add bash
 RUN apk --update add bird
+RUN apk --update add radvd
 
 RUN echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
+RUN echo "net.ipv6.conf.all.forwarding = 1" >> /etc/sysctl.conf
 
 ADD bin /usr/bin/
 ADD etc /etc/

@@ -4,6 +4,7 @@ if [ -z "$2" ]
 then
 	if [ "$1" = "router" ]
 	then
+		/usr/bin/setupRadvd
 		bird -f
 	else
 		tail -f /dev/null
@@ -11,6 +12,7 @@ then
 else
 	if [ "$1" = "router" ]
         then                  
+		/usr/bin/setupRadvd
                 bird&
 		eval $2  
         else             
