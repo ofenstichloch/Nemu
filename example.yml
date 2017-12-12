@@ -1,75 +1,20 @@
+image: ofenstichloch/nemu-test
 nodes:
   node1:
     type: client
   node2:
     type: client
-  node2:
-    type: client
-  node3:
-    type: client
-  node4:
-    type: client
-  node5:
-    type: client
-  node6:
-    type: client
-  node7:
-    type: client
-  node8:
-    type: client
-
 
   router1:
-    type: router
-  router2:
-    type: router
-  router3:
-    type: router
-  router4:
-    type: router
-  router5:
-    type: router
-  router6:
-    type: router
-  router7:
     type: router
 
   switch1:
     type: switch
   switch2:
     type: switch
-  switch3:
-    type: switch
-  switch4:
-    type: switch
-  switch5:
-    type: switch
-  switch6:
-    type: switch
-  switch7:
-    type: switch
-  switch8:
-    type: switch
+
 edges:
 - [ router1,switch1]
-- [ router2,switch1]
-- [ router3,switch1]
-- [ router4,switch1, [delay=200ms 50ms,loss=10%]]
-- [ router1,switch2, [duplicate=50%, corrupt 10%, reorder 25% 50%]]
-- [ router2,switch3]
-- [ router3,switch4]
-- [ router4,switch5]
-- [ router5,switch2]
-- [ router5,switch6]
-- [ router6,switch3]
-- [ router6,switch7]
-- [ router7,switch7]
-- [ router7,switch8]
+- [ router1,switch2]
 - [ node1,switch1]
 - [ node2,switch2]
-- [ node3,switch3]
-- [ node4,switch4]
-- [ node5,switch5]
-- [ node6,switch6]
-- [ node7,switch7]
-- [ node8,switch8]
