@@ -20,4 +20,5 @@ for path in sys.argv[1:]:
                     out.write(line+"\n")
 
     print("Cleaning up...")
-    os.system("for a in `docker ps -aq`; do docker kill $a; docker rm $a; done; docker network prune -f")
+#    os.system("for a in `docker ps -aq`; do docker kill $a; docker rm $a; done; docker network prune -f")
+
