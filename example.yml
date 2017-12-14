@@ -4,13 +4,19 @@ nodes:
     type: client
   node2:
     type: client
+  node3:
+    type: client
 
   router1:
+    type: router
+  router2:
     type: router
 
   switch1:
     type: switch
   switch2:
+    type: switch
+  switch3:
     type: switch
 
 edges:
@@ -18,3 +24,6 @@ edges:
 - [ router1,switch2]
 - [ node1,switch1]
 - [ node2,switch2]
+- [ router2, switch2]
+- [ router2, switch3]
+- [ node3, switch3]

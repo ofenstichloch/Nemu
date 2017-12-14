@@ -25,6 +25,9 @@ def create(yaml, stream, graph):
             image = config["image"]
         else:
             image = "ofenstichloch/nemu"
+        if "ipversion" in config:
+            global ipversion
+            ipversion = config["ipversion"]
     except Exception as e:
         log.write("Error reading config file" + e.message + "</br>")
     startperf = time.perf_counter()
