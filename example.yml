@@ -1,4 +1,4 @@
-image: ofenstichloch/nemu-test
+image: ofenstichloch/nemu
 nodes:
   node1:
     type: client
@@ -25,5 +25,5 @@ edges:
 - [ node1,switch1]
 - [ node2,switch2]
 - [ router2, switch2]
-- [ router2, switch3]
+- [ router2, switch3, [delay=200ms 50ms,loss=10%]]
 - [ node3, switch3]

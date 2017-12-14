@@ -111,7 +111,7 @@
 	    <div class="col">
 		    <div>
 		        <div class="console"></div>
-			    <input type="text" name="command" size="50" onkeydown="submit(this)" placeholder="enter command"/>
+			    <input type="text" name="command" size="50" onkeydown="submit(this)" placeholder="enter command" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
 			    <select name="node" onchange="changeNode(this)">
                     {% for n in nodes %}
                         {% if nodes[n]["type"] != "switch" %}
