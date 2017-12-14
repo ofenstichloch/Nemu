@@ -1,3 +1,9 @@
 #!/bin/bash
-IP=`ifconfig eth0 | grep "inet addr" | cut -f 2 -d ":"| cut -f 1 -d" "`
-sed -i "s/XXXXXX/$IP/" /etc/bird.conf
+if [ "$1" = "6" ]
+then
+    IP=`hostname | grep -oe "[0-9]*"`
+    sed -i "s/XXXXXX/$IP/" /etc/bird6.conf
+else
+    IP=`ifconfig eth0 | grep "inet addr" | cut -f 2 -d ":"| cut -f 1 -d" "`
+    sed -i "s/XXXXXX/$IP/" /etc/bird.conf
+fi

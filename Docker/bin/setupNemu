@@ -1,13 +1,20 @@
 #!/bin/bash
 ip=$1
-int=`ifconfig | grep -B1 "inet addr:$ip" | awk '$1!="inet" && $1!="--" {print $1}'`
+if [[ $ip == *":"* ]]
+then
+        int=`ip a s to $ip | awk -F ": " 'NF > 1 {print $2}'| cut -d '@' -f 1`
+else
+        int=`ifconfig | grep -B1 "inet addr:$ip" | awk '$1!="inet" && $1!="--" {print $1}'`
+fi
 cmd="tc qdisc add dev $int root netem "
 for p in "$@"
 do
+        echo $p
         if [[ $p == $ip ]]
         then
                 continue
         fi
-	arg=`echo $p | sed "s/=/\ /g"`
+        arg=`echo $p | sed "s/=/\ /g"`
+        cmd="$cmd $arg"
 done
 eval $cmd

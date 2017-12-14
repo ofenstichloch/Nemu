@@ -12,6 +12,8 @@ do
                         AdvAutonomous on;
                         AdvRouterAddr on;
                 };
+                route ::/0 {
+                };
         };"
 done > /etc/radvd.conf
 mkdir /run/radvd

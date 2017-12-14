@@ -1,5 +1,5 @@
 #!/bin/bash
-/usr/bin/setupBird
+/usr/bin/setupBird $2
 echo $@
 if [ -z "$3" ]
 then
@@ -8,22 +8,26 @@ then
 		if [ "$2" = "6" ]
 		then
 			/usr/bin/setupRadvd
+			bird6 -f
+	    else
+		    bird -f
 		fi
-		bird -f
 	else
 		tail -f /dev/null
 	fi
 else
 	if [ "$1" = "router" ]
-        then                  
-                if [ "$2" = "6" ]
-                then
-                        /usr/bin/setupRadvd
-                fi
-		bird&
-		eval $3 
-        else             
-                eval $3
-        fi 
+    then
+        if [ "$2" = "6" ]
+        then
+            /usr/bin/setupRadvd
+            bird6&
+        else
+            bird&
+        fi
+        eval $3
+    else
+        eval $3
+    fi
 fi
 
